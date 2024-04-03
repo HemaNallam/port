@@ -1,0 +1,115 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3a3a3;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background: linear-gradient(45deg, rgba(5, 6, 6, 0.8), rgba(56, 56, 9, 0.8)); /* Gradient background with transparency */
+    color: #f2f6ec;
+    padding: 20px 0;
+    text-align: center;
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
+}
+
+.section p {
+    line-height: 1.8;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #e0db6c;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffc107;
+}
+
+main {
+    padding: 50px 0;
+}
+
+section {
+    padding: 50px 0;
+}
+
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.project {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(24px); /* Adjust the blur radius as needed */
+    background-color: rgba(204, 211, 206, 0.5); /* Adjust the color and transparency */
+}
+
+
+.project img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.project h3 {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+.project p {
+    color: #464242;
+}
+
+footer {
+    background-color: #333;
+    color: #faf7f7;
+    text-align: center;
+    padding: 20px 0;
+}
+    
+  #skills ul li {
+    margin-bottom: 15px; /* Adjust the value as needed */
+  }
+
+  #contact-form h4 {
+    margin-bottom: 0; /* Adjust as needed */
+
+  }
+  
+  #contact-form li {
+    margin-bottom: 0; /* Adjust as needed */
+  }
+
